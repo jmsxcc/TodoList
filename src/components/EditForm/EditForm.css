@@ -1,0 +1,28 @@
+.edit-todo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 0.5rem;
+}
+
+.edit-todo .todo-input {
+  background-color: #caf0f8;
+  border: 2px solid #000000;
+  border-radius: 5px;
+  padding: 0.5rem 1rem;
+}
+
+.edit-todo .btn-icon {
+  border: none;
+  font-size: 25px;
+  color: var(--background);
+  transition: 0.2s;
+}
+
+#icon-check:hover {
+  color: #009f20;
+}
+
+#icon-cancel:hover {
+  color: #d00000;
+}

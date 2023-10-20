@@ -1,0 +1,29 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background-color: var(--background);
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  padding: 1rem;
+  border-radius: 1rem;
+  background-color: var(--color-container);
+  width: 350px;
+}
+
+h1 {
+  color: var(--color-titles);
+  font-size: 3rem;
+  margin: 1rem;
+}

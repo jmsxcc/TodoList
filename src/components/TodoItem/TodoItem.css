@@ -1,0 +1,38 @@
+.todo-list {
+  color: var(--color-todo);
+  background-color: var(--color-item);
+  border: 2px solid var(--color-item);
+  border-radius: 5px;
+  margin-bottom: 0.5rem;
+  list-style: none;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0.5rem;
+}
+
+.btn-icon {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 18px;
+  background: none;
+  border: none;
+  color: var(--color-todo);
+  cursor: pointer;
+  padding-left: 0.5rem;
+  transition: 0.2s;
+}
+
+#icon-edit:hover {
+  color: #ff7d00;
+}
+
+#icon-delete:hover {
+  color: #d00000;
+}
+
+.completed {
+  text-decoration: line-through;
+  color: #aaa;
+}

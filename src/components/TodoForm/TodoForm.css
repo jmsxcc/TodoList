@@ -1,0 +1,25 @@
+.todo-form .todo-input {
+  background-color: #caf0f8;
+  border: 2px solid #000000;
+  border-radius: 5px 0 0 5px;
+  padding: 0.5rem 1rem;
+  margin-bottom: 0.5rem;
+}
+
+.todo-input::placeholder {
+  color: #585858;
+}
+
+.btn {
+  background-color: var(--color-btn);
+  border: 2px solid var(--background);
+  border-radius: 0 5px 5px 0;
+  padding: 0.5rem;
+  cursor: pointer;
+  font-weight: bold;
+  transition: 0.2s;
+}
+
+.btn:hover {
+  background-color: #0096c7;
+}
